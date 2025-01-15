@@ -48,11 +48,9 @@ En este docker instalaremos ODOO, pgadmin y una base de datos en común. Para la
 
 La imagen de odoo cuenta con la version 17 y puerto 8069. Se establece la dependencia de la base de datos (depends on) y un usuario y contraseña (enviroment). Con restart aseguramos un reinicio automático.
 
-La base de datos contara con la version mas reciente de postgres, cuenta con reinicio igualmente. 
+La base de datos contará con la version mas reciente de postgres, cuenta con reinicio igualmente. En el enviroment ponemos la información de usuario y el nombre de la base.
 
-En el enviroment cuenta con la informacion de usuario y el nombre de la base.
-
-Por ultimo pg admin cuenta con la imagen pgadmin5 con soperte para administracion de bases de datos. Le establecemos un nombre de contenedor (pgadmin4_container), el reinicio , puerto 8888:80 , la dependencia a la base de datos y el enviroment con la información de administrador.
+Por último pgadmin cuenta con la imagen pgadmin5 con soporte para administración de bases de datos. Le establecemos un nombre de contenedor (pgadmin4_container), el reinicio , puerto 8888:80 , la dependencia a la base de datos y el enviroment con la información de administrador.
 
 
 Instalación:
