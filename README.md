@@ -71,6 +71,19 @@ La base creada en odoo anteriormente aparecera ahora si desplegamos el servidor,
 
 ![](https://github.com/VictorQuinoa/SXE_Odoo/blob/main/a2.png?raw=true)
 
+# Preguntas
+
+¿Que ocurre si en el ordenador local el puerto 5432 está ocupado? ¿Y si lo estuviese el 8069? ¿Como puedes solucionarlo?
+
+Si los puertos estubiesen en uso se crearian problemas al no poder mapear el puerto debido a que ya esta ocupado, lo que produciria un error al no poder iniciarse el servicio.
+
+Como solución se deberia cambiar el puerto del host asignado a cada servicio para evitar complicaciones.
+
+
+
+
+
+
 
 
 
