@@ -1,4 +1,4 @@
-# Instalacion ODOO
+# Instalación ODOO
 
 Para instalar ODOO lo haremos mediante un docker compose en el cual tendra esta estructura
 
